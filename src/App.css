@@ -24,6 +24,22 @@
   color: white;
 }
 
+.helloDiv {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.helloDiv h2 {
+  border: 1px solid;
+}
+
+.helloDiv button {
+  width: 100px;
+  height: 100px;
+  font-size: 80px;
+}
+
+
 .App-link {
   color: #61dafb;
 }
