@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Hello from './components/Hello';
-import HelloBox from './components/HelloBox';
+import CountComponent from './components/day1/CountComponent';
 
 function App() {
 
@@ -14,7 +13,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <HelloBox></HelloBox>
+        <CountComponent></CountComponent>
+
         <a
           className="App-link"
           href="https://reactjs.org"

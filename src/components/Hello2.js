@@ -8,15 +8,12 @@ class Hello2 extends Component {
     }
 
     plusHandler = () => {
-        console.log("CLICK");
         this.setState( {count: ++ this.state.count} )
     }
 
     minusHandler = () => {
         this.setState({count: -- this.state.count})
     }
-
-
 
     render() {
         return (
