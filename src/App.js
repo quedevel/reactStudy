@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import CountComponent from './components/day1/CountComponent';
 import CountHookComponent from './components/day1/CountHookComponent';
+import QuizComponent from './components/quiz/QuizComponent';
 
 function App() {
 
@@ -13,16 +14,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <CountHookComponent></CountHookComponent>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <QuizComponent></QuizComponent>
       </header>
     </div>
   );
