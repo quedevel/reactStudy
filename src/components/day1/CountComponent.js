@@ -17,7 +17,7 @@ class CountComponent extends Component {
 
     render() {
         return (
-            <div class="countDiv">
+            <div>
                 <CountBoard num={this.state.count}></CountBoard>
                 <CountButton label="1" wrapper={this.changeCount} amount={1}></CountButton>
                 <CountButton label="-1" wrapper={this.changeCount} amount={-1}></CountButton>

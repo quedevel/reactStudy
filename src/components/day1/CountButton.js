@@ -3,7 +3,7 @@ import React from 'react'
 const CountButton = ({ label, wrapper, amount }) => {
 
     return (
-        <div class="buttonDiv">
+        <div>
             <button onClick={() => { wrapper(amount) }}>{label}</button>
         </div>
     )
