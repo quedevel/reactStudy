@@ -4,6 +4,8 @@ import './App.css';
 import CountComponent from './components/day1/CountComponent';
 import CountHookComponent from './components/day1/CountHookComponent';
 import QuizComponent from './components/quiz/QuizComponent';
+import LoopEx from './components/day3/LoopEx';
+import ItemComponent from './components/day3/ItemComponent';
 
 function App() {
 
@@ -22,11 +24,12 @@ function App() {
     { title: "2Quiz4....", answer: "4" },
     { title: "2Quiz5....", answer: "5" }
   ]
+
+  
   return (
     <div className="App">
       <header className="App-header">
-        <QuizComponent arr={arr1}></QuizComponent>
-        <QuizComponent arr={arr2}></QuizComponent>
+        <ItemComponent></ItemComponent>
       </header>
     </div>
   );
